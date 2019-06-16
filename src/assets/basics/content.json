@@ -1,0 +1,59 @@
+[
+  {
+    "menu": [{"type": "offcanvas", "position": "right", "sort":0}],
+    "name": [{"text": "Menu","href": "/home", "description":"+69 555 555 555"}],
+    "content": [{
+      "heading":"Willkommen",
+      "subheading":"in der Welt der Farben",
+      "intro":"Lorem ipsum dolor sit amet.",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "button": [{  "buttonname": "more", "buttonhref": "" }]
+      }],
+    "meta": [
+        {  "mname": "titel",       "mcontent": "Ronald Bischoff Frontend Developer" },
+        {  "mname": "description", "mcontent": "Startseite - Webseite von Ronald Bischoff" },
+        {  "mname": "author",      "mcontent": "Ronald Bischoff" },
+        {  "mname": "keywords",    "mcontent": "JQuery, HTML, Javascript, Timescript, Json, Ajax, CSS, SQL, PHP, UI-Kit, ukap, sectionatix, gridtastix, Angular, gridow, gridow play, Design, Developer, Frontend, Node, Frankfurt am Main " }
+      ],
+    "submenu": [
+        {  "subname": "Kontakt",     "subhref": "/kontakt", "sort":1 },
+        {  "subname": "Impressum",   "subhref": "/impressum", "sort":2 },
+        {  "subname": "Datenschutz", "subhref": "/datenschutz", "sort":3 }
+      ]
+  },
+  {
+    "logo": [{"path": "assets/cortese/brand_logo.png", "position": "left", "sort":0}],
+    "name": [{"text": "Cortese Raumausstatter","href": "/home"}]
+  },
+  {
+    "header": [{"path": "assets/cortese/room-1.png", "position": "top", "sort":0}],
+    "name": [{"titel": "Room with colored tabel", "text": "Schon mal mit Farbe Probiert?" }]
+  },
+{
+  "grid": [{"active": true, "position": "middle", "sort":0}],
+  "content": [{
+    "heading":"Willkommen",
+    "subheading":"in der Welt der Farben",
+    "intro":"Lorem ipsum dolor sit amet.",
+    "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    "button": [{  "buttonname": "more", "buttonhref": "" }]
+    }],
+  "gridwidth": [{"b": "1-1", "s": "3-4", "m":  "3-4", "l":  "3-4", "xl":  "3-4"}],
+  "childwidth": [{"b": "1-1", "s": "1-2", "m":  "1-3", "l":  "1-3", "xl":  "1-3"}],
+  "boxes": [
+    {  "boxtitel": "BERATUNG & PLANUNG",         "boxtext":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",  "boxicon":  "fa-2x fas fa-user",  "boxcolor": "#f51c01", "boxtextcolor": "#fff" },
+    {  "boxtitel": "MALER- & TAPEZIERARBEITEN",  "boxtext":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",  "boxicon":  "fa-2x fas fa-paint-roller",  "boxcolor": "#89bac0", "boxtextcolor": "#fff"  },
+    {  "boxtitel": "SONNEN- & SICHTSCHUTZ",      "boxtext":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",  "boxicon":  "fa-2x fas fa-sun",  "boxcolor": "#fbe629", "boxtextcolor": "#222"  },
+    {  "boxtitel": "BODENVERLEGUNG",             "boxtext":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",  "boxicon":  "fa-2x fas fa-tape",  "boxcolor": "#89bac0", "boxtextcolor": "#fff"  },
+    {  "boxtitel": "FLIESENARBEITEN",            "boxtext":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",  "boxicon":  "fa-2x fas fa-ruler-combined",  "boxcolor": "#fbe629", "boxtextcolor": "#222"  },
+    {  "boxtitel": "GARDIENEN",                  "boxtext":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",  "boxicon":  "fa-2x fas fa-icicles",  "boxcolor": "#f51c01", "boxtextcolor": "#fff"  },
+    {  "boxtitel": "POLSTERARBEITEN",            "boxtext":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",  "boxicon":  "fa-2x fas fa-couch",  "boxcolor": "#fbe629", "boxtextcolor": "#222"  },
+    {  "boxtitel": "SPACHTELARBEITEN",           "boxtext":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",  "boxicon":  "fa-2x fas fa-briefcase",  "boxcolor": "#f51c01", "boxtextcolor": "#fff"  },
+    {  "boxtitel": "TROCKENBAU",                 "boxtext":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",  "boxicon":  "fa-2x fas fa-door-open",  "boxcolor": "#89bac0", "boxtextcolor": "#fff"  },
+    {  "boxtitel": "WANDBEKLEIDUNG & Deko",      "boxtext":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",  "boxicon":  "fa-2x fas fa-palette",  "boxcolor": "#f51c01", "boxtextcolor": "#fff"  },
+    {  "boxtitel": "WOHNUNGS- AUFLÖSUNG",        "boxtext":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",  "boxicon":  "fa-2x fas fa-box-open",  "boxcolor": "#89bac0", "boxtextcolor": "#fff"  }
+  ]
+}
+]
+
+

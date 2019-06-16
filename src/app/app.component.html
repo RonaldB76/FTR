@@ -7,14 +7,14 @@
       <app-navigation></app-navigation>
   </mat-sidenav>
 <mat-sidenav-content>
-    <mat-toolbar color="primary">
+    <mat-toolbar class="indiviual" color="primary">
         <button
           type="button"
           aria-label="Toggle sidenav"
           mat-icon-button
           (click)="drawer.toggle()"
           >
-          <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+          <mat-icon aria-label="Side nav toggle icon" #icon></mat-icon>
         </button>
         <app-toolbar></app-toolbar>
       </mat-toolbar>

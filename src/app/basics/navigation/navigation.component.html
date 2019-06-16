@@ -1,8 +1,12 @@
-<mat-toolbar>Menu</mat-toolbar>
+<mat-toolbar #menutitel></mat-toolbar>
 <mat-nav-list>
-  <a mat-list-item href="#">Link 1</a>
-  <a mat-list-item href="#">Link 2</a>
-  <a mat-list-item href="#">Link 3</a>
+    <ng-container *ngFor="let item of basics">
+        <ng-container *ngFor="let name of item.menuitems">
+          <a mat-list-item href="{{ name.href }}" >{{ name.name }}</a>
+        </ng-container>
+    </ng-container>
 </mat-nav-list>
+
+
 
 
