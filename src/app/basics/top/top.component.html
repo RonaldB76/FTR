@@ -1,12 +1,21 @@
 <mat-grid-list cols="2" rowHeight="1:1">
   <mat-grid-tile>
     <mat-card>
-        <div><button mat-button (click)="openDialog()">Terminat your routine</button></div>
+        <mat-card-title>Do it!</mat-card-title>
+        <mat-card-content>
+            <mat-label>Terminat your routine!</mat-label><br>
+            <button mat-button (click)="openDialog()">
+                <mat-icon>play_arrow</mat-icon>
+            </button>
+            <hr>
+        </mat-card-content>
     </mat-card>
   </mat-grid-tile>
   <mat-grid-tile>
     <mat-card>
       <mat-form-field>
+          <mat-card-title>Style it!</mat-card-title>
+        <mat-card-content>
           <mat-label>Color your fuck!</mat-label>
           <mat-select [(value)]="selectedColor" (selectionChange)="onChange($event)" #select>
               <ng-container *ngFor="let color of basics">
@@ -15,6 +24,7 @@
                 </mat-option>
              </ng-container>
           </mat-select>
+        </mat-card-content>
         </mat-form-field>
     </mat-card>
   </mat-grid-tile>

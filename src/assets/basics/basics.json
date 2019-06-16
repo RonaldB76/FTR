@@ -4,10 +4,10 @@
     "menuitems":  [{"name": "Send a fuck", "href": "/home" }],
     "colors":
       [
-        {"value": "red", "viewValue": "red" },
-        {"value": "blue", "viewValue": "blue" },
-        {"value": "yellow", "viewValue": "yellow" },
-        {"value": "pink", "viewValue": "pink" }
+        {"value": "#aa2626", "viewValue": "red" },
+        {"value": "#2655aa", "viewValue": "blue" },
+        {"value": "#9626aa", "viewValue": "purple" },
+        {"value": "#ff4cd95e", "viewValue": "pink" }
       ],
     "titel": [{"site": "#FUCKTHEROUTINE", "toolbar": "#FUCKTHEROUTINE", "footer": "by Ronald Bischoff 2019" }]
   }

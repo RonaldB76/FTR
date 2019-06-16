@@ -45,5 +45,6 @@ export class TopComponent  implements OnInit {
 
   onChange( event ) {
     document.querySelector('.indiviual').setAttribute('style', 'background-color:' + event.value);
+    document.querySelector('.mat-drawer-inner-container').setAttribute('style', 'background-color:' + event.value);
 }
 }

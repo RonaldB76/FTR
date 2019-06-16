@@ -3,3 +3,41 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+.mat-toolbar.mat-primary {
+  border-top: 2px solid #222;
+  background-color: purple;
+}
+
+mat-card {
+  height: 130px;
+  width: 180px;
+}
+
+button.mat-button {
+  text-align: left;
+  padding: 0 0px;
+  min-width:24px;
+}
+
+.mat-toolbar {
+  background: #eeede8;
+  color: #222;
+  font-size:9pt;
+  text-transform: uppercase;
+}
+
+.mat-drawer-container {
+  background-color: #eeede8;
+  color: #222;
+}
+
+.mat-drawer-inner-container {
+  background-color: purple ;
+  color: #fff;
+}
+
+.mat-list-base .mat-list-item {
+  color: #ffffffde;
+  font-size:9pt;
+  text-transform: uppercase;
+}
